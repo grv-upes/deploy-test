@@ -1,0 +1,24 @@
+.main-main{
+    height: 100vh;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #bb86fc;
+    /* background: rgb(197,241,226);
+    background: linear-gradient(340deg, rgba(197,241,226,1) 51%, rgba(12,235,221,1) 52%, rgba(5,213,200,1) 100%);; */
+}
+
+img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.some-more{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
