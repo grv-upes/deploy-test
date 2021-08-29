@@ -21,7 +21,7 @@ const DisplayFrame = ({src}) =>{
     return (
       <>
       <div className="llll">
-        <iframe srcDoc={src}/>
+        <iframe srcDoc={src} width="400px" height="300px" frameborder="1"/>
       </div>
         <hr/>
       </>
@@ -66,7 +66,7 @@ function Blogs() {
           onChange={setIt}
           />
 
-          <button onClick={clickHandle}>Click</button>
+          <button onClick={clickHandle}>Run</button>
         {result && 
           <DisplayFrame src={text} />
         }
